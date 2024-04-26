@@ -834,7 +834,8 @@ usage(char *this) {
 int
 main(int argc, char **argv) {
 	int nfd;
-	int i, j, c;
+	int i, j;
+	unsigned char c;
 	unsigned char inbuf;
 	char buf[1024];
 	char *cmdbuf;
